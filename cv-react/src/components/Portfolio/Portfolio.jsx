@@ -27,7 +27,7 @@ const Portfolio = () => {
                             Form Tracker
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Projeto desenvolvido para Residência de Software 2021.
+                            Projeto desenvolvido para Residência de Software 2021.2.
                         </Typography>
                     </CardContent>
                     <CardActions>
