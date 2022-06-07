@@ -1,0 +1,49 @@
+
+.intro-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    margin-top: 3em;
+  }
+  
+  .intro-content {
+    margin-left: 3.445em;
+  }
+  
+  .text {
+    line-height: 55px;
+  }
+    .text p {
+        color: rgb(0, 0, 0);
+        font-size: 1.3em;
+    }
+  
+   .text h1 {
+        font-size: 4em;
+        margin-bottom: 0.2em;
+        margin-top: 0.2em;
+        color:#4a00e0;
+    }
+  
+  .title-1{
+    font-size: 1.6em;
+    font-weight: 500;
+  }
+  
+  
+  .intro-img img {
+    max-width: 80%;
+  }
+  
+  .social {
+    display: flex;
+  
+  }
+  
+       
+      
+  
+  
+  
+  

@@ -1,0 +1,47 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -5em auto;
+  }
+  
+  .about-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+  }
+  
+  .about-img {
+    width: 100%;
+    position: relative;
+
+  }
+  
+
+  .about-desc{
+      font-size: 1.3em;
+      text-align:justify;
+      margin-right: 2em;
+   
+  }
+
+  .info-box{
+      margin-top:1.2em;
+      font-size: 1.3em;
+  }
+
+  .info {
+      margin: 0.75em;
+   
+  }
+
+  .btn-cv{
+    margin-top:1.2em;
+  }
+
+  .about-right{
+      margin-top: 4em;
+
+  }
