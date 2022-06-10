@@ -2,7 +2,8 @@ import React from "react";
 import useStore from "../../../../store";
 import { v4 } from "uuid";
 import { makeStyles } from "@material-ui/styles";
-import { Button, TextField } from "@mui/material";
+import { Paper, Button, TextField } from "@mui/material";
+
 
 const useStyles = makeStyles({
   root: {
@@ -50,7 +51,50 @@ const AddTodo = () => {
           ADD
         </Button>
       </div>
+
+      <div>
+
+      <Paper elevation={6} style={{ background: "#0000", color: "#4a00e0", border: "1px solid #4a00e0", padding:"1em"}} sx={{
+        p: 1,
+        margin: '10px auto',
+        maxWidth: 284,
+        height: 43
+      }}><b>REACT</b>
+      </Paper>
+      <Paper elevation={6} style={{ background: "#0000", color: "#4a00e0", border: "1px solid #4a00e0", padding:"1em"}} sx={{
+        p: 1,
+        margin: '10px auto',
+        maxWidth: 284,
+        height: 43
+      }}><b>HTML/CSS</b>
+      </Paper>
+      <Paper elevation={6} style={{ background: "#0000", color: "#4a00e0", border: "1px solid #4a00e0", padding:"1em"}} sx={{
+        p: 1,
+        margin: '10px auto',
+        maxWidth: 284,
+        height: 43
+      }}><b>JAVASCRIPT</b>
+      </Paper>
+      </div>
+      <Paper elevation={6} style={{ background: "#0000", color: "#4a00e0", border: "1px solid #4a00e0", padding:"1em"}} sx={{
+        p: 1,
+        margin: '10px auto',
+        maxWidth: 284,
+        height: 43
+      }}><b>JAVA</b>
+      </Paper>
+      <Paper elevation={6} style={{ background: "#0000", color: "#4a00e0", border: "1px solid #4a00e0", padding:"1em"}} sx={{
+        p: 1,
+        margin: '10px auto',
+        maxWidth: 284,
+        height: 43
+      }}><b>UX/UI DESIGN</b>
+      </Paper>
     </form>
+
+    
+
+    
 
   );
 };
